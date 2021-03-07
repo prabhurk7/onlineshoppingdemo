@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="online.shopping.demo.TestClass">
+        <methods>
+          <include name="Checkout_Payment_Validation"/>
+          <include name="Teardown"/>
+          <include name="Make_order_validation"/>
+          <include name="close"/>
+          <include name="Order_Hisotry_validation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- online.shopping.demo.TestClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
