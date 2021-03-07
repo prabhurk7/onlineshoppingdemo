@@ -74,7 +74,6 @@ public class OrderView_Sel extends BaseClass{
 		addtocart.click();
 		driver.switchTo().defaultContent();
 		continueshopping.click();
-		
 		}	
 		checkout.click();
 }
